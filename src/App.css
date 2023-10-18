@@ -66,6 +66,12 @@
   --brand-hover: hsl(var(--brand-hue) var(--brand-saturation) calc(var(--brand-lightness) + 5%)); 
   --brand-active: hsl(var(--brand-hue) var(--brand-saturation) calc(var(--brand-lightness) - 5%)); 
   --text-disabled: hsl(var(--brand-hue) 10% 30%); 
+
+
+  --success: hsl(120deg 67% 66%);
+  --warning: hsl(39deg 67% 66%);
+  --failure: hsl(2deg 67% 66%);
+ 
 }
 
 /* Automatic Dark Mode*/
@@ -85,6 +91,11 @@
     --brand-hover: hsl(var(--brand-hue) calc(var(--brand-saturation) / 1.25) calc(calc(var(--brand-lightness) / 1.25) - 5%));
     --brand-active: hsl(var(--brand-hue) calc(var(--brand-saturation) / 1.25) calc(calc(var(--brand-lightness) / 1.25) - 10%));
     --text-disabled: hsl(var(--brand-hue) 10% 60%);
+
+    --success: hsl(121deg 41% 39%);
+    --warning: hsl(40deg 40% 40%);
+    --failure: hsl(3deg 40% 40%);
+
   }
 }
 
@@ -104,6 +115,10 @@
   --brand-hover: hsl(var(--brand-hue) var(--brand-saturation) calc(var(--brand-lightness) + 5%)); 
   --brand-active: hsl(var(--brand-hue) var(--brand-saturation) calc(var(--brand-lightness) - 5%)); 
   --text-disabled: hsl(var(--brand-hue) 10% 30%); 
+
+  --success: hsl(120deg 67% 66%);
+  --warning: hsl(39deg 67% 66%);
+  --failure: hsl(2deg 67% 66%);
 }
 
 /* Dark Color Scheme*/
@@ -122,6 +137,10 @@
   --brand-hover: hsl(var(--brand-hue) calc(var(--brand-saturation) / 2) calc(calc(var(--brand-lightness) / 1.5) - 5%));
   --brand-active: hsl(var(--brand-hue) calc(var(--brand-saturation) / 2) calc(calc(var(--brand-lightness) / 1.5) - 10%));
   --text-disabled: hsl(var(--brand-hue) 10% 60%);
+
+  --success: hsl(121deg 41% 39%);
+  --warning: hsl(40deg 40% 40%);
+  --failure: hsl(3deg 40% 40%);
 }
 
 /* Dim Color Scheme*/
@@ -141,6 +160,10 @@
   --brand-hover: hsl(var(--brand-hue) calc(var(--brand-saturation) / 2) calc(calc(var(--brand-lightness) / 1.5) - 5%));
   --brand-active: hsl(var(--brand-hue) calc(var(--brand-saturation) / 2) calc(calc(var(--brand-lightness) / 1.5) - 10%));
   --text-disabled: hsl(var(--brand-hue) 10% 70%);
+
+  --success: hsl(120deg 35% 40%);
+  --warning: hsl(55, 42%, 42%);
+  --failure: hsl(1deg 34% 40%);
 }
 
 

@@ -1,0 +1,46 @@
+  .text-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .text-field label {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-input {
+    padding: 10px;
+    border-radius: 8px; 
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: var(--text1);
+  }
+  
+  .custom-input.brand {
+    border: 1px solid var(--brand);
+  }
+  
+  .custom-input.success {
+    border: 1px solid var(--success);
+  }
+  
+  .custom-input.warning {
+    border: 1px solid var(--warning);
+  }
+  
+  .custom-input.failure {
+    border: 1px solid var(--failure);
+  }
+  
+  .custom-input:focus {
+    outline: none; 
+  }
+  
+  .failure-text {
+    font-size: 14px;
+    margin-left: 10px;
+    color: var(--text2);
+  }

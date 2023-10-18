@@ -4,6 +4,8 @@ import React from 'react';
 import Surface from './components/Surface/Surface';
 import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
 import Button from './components/Button/Button';
+import TextField from './components/TextField/TextField';
+
 function App() {
   return (
     <div>
@@ -16,6 +18,10 @@ function App() {
             <Surface surfaceNumber={'surface3'} />
             <Surface surfaceNumber={'surface4'} />
           </div>
+          <TextField label='Name' />
+          <TextField label='Email' isEmail={true}/>
+          <TextField label='Password' isPassword={true}/>
+          <Button text='Sign up' height='38px' width='auto' />
         </section>
 
         <section>
