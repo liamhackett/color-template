@@ -1,0 +1,50 @@
+.button {
+    border-radius: 8px;
+    color: var(--text-1); 
+    background-color: var(--brand); 
+    border-radius: 8px;
+    padding: 8px; 
+    border: none;
+    cursor: pointer;
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+}
+.outline {
+    border: 2px solid var(--brand);
+    background-color: transparent;
+    color: var(--brand);
+}
+.outline:hover {
+    background-color: var(--brand-hover);
+    border: transparent;
+    color: var(--text-1); 
+}
+.outline:active {
+    background-color: var(--brand-active); 
+    border: transparent;
+    color: var(--text-1); 
+}
+
+.outline:disabled {
+    background-color: var(--brand-disabled); 
+    cursor: not-allowed; 
+    color: var(--text-disabled); 
+}
+
+/* Hover state */
+.button:hover, .outline:hover {
+    background-color: var(--brand-hover);
+}
+  
+/* Clicked state */
+.button:active {
+    background-color: var(--brand-active); 
+}
+  
+/* Disabled state */
+.button:disabled {
+    background-color: var(--brand-disabled); 
+    cursor: not-allowed; 
+    color: var(--text-disabled); 
+}

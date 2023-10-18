@@ -1,0 +1,15 @@
+header {
+    display: inline-grid;
+    gap: 1ch;
+  }
+  
+  form {
+    display: flex;
+    gap: 2ch;
+  
+    & > div {
+      display: inline-flex;
+      align-items: center;
+      gap: .75ch;
+    }
+  }
